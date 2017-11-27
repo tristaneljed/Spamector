@@ -17,6 +17,7 @@ The output would be an API and a web application allowing the user to enter a me
 - **Data Source**
 
 Enron Email Dataset
+
 Link: https://www.cs.cmu.edu/~enron/
 
 
@@ -24,13 +25,13 @@ Link: https://www.cs.cmu.edu/~enron/
 
 For the Flask App:
 
-nltk 3.2.4
+![nltk 3.2.4](https://img.shields.io/badge/nltk-3.2.4-green.svg)
 
-Flask 0.12.2
+![flask 0.12.2](https://img.shields.io/badge/flask-0.12.2-green.svg)
 
 For the Jupyter Notebook:
 
-scikit-learn 0.19.1
+![scikitlearn 0.19.1](https://img.shields.io/badge/scikitlearn-0.19.1-green.svg)
 
 	
 - **Structure**
