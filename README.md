@@ -1,6 +1,6 @@
 # Spamector
 
-## A Spam Detecor
+## A Spam Detector
 
 - **Summary**
 
