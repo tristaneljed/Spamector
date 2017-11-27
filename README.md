@@ -63,11 +63,11 @@ Spamector
 3. Start a terminal window and use cd to move to the Spamector folder.  
 4. Run: `python app.py`
 5. Open a web browser and type `127.0.0.1:5000`
-6. Enjoy :-)
+6. Enjoy 😎
 
 
 - **Instructions - How to run the Jupyter Notebook**
 
 1. From the Spamector folder in the terminal window, start a jupyter notebook session.  
 2. From Jupyter notebook, run the Spamector notebook.
-3. Enjoy :-)
+3. Enjoy 😉
