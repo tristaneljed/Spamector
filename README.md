@@ -33,6 +33,28 @@ For the Jupyter Notebook:
 scikit-learn 0.19.1
 
 	
+- **Structure**
+
+```
+Spamector
+│	README.md
+│	requirements.txt
+│	app.py 
+│	engine.py
+│	Spamector.ipynb 
+│	Spamector.html
+│	nb_model.sav
+│	nb_model.joblib
+└───data
+└───jupyter_images
+└───static
+│   └───css
+│   └───img
+│   └───js  
+└───templates
+```
+
+
 - **Instructions - How to run Spamector**
 
 1. Download the tarzip file.  
