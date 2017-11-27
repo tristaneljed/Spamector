@@ -1,0 +1,61 @@
+<html>
+
+<head>
+<meta charset='utf-8'>
+<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+<script src="../static/js/jquery-2.2.1.min.js"></script> 
+</head>
+
+<body>
+<header>
+	<h1>Spamector</h1>
+</header>
+
+<div id="form">
+
+<div class="fish" id="fish"></div>
+<div class="fish" id="fish2"></div>
+
+<form method="post" action="/RunEngine">
+
+<div class="formgroup" id="message-form">
+    <label for="message">Your message</label>
+    <textarea id="message" name="inputMessage"></textarea>
+</div>
+
+	<input id="btnSpam" type="submit" value="Run Spamector" />
+</form>
+</br>
+<center>
+<div id='loadingmessage' style='display:none'>
+<img src='../static/img/Ripple.gif'/ align="center">
+</div>
+<div id='output'>
+{{ OutputMsg }}
+</div>
+</center>
+</div>
+<script>
+	$(function() {
+	$('#inputMessage').val('');
+    $('#btnSpam').click(function() {
+		$('#loadingmessage').show(); 
+		$('#output').hide(); 
+        $.ajax({
+            url: '/RunEngine',
+            data: $('form').serialize(),
+            type: 'POST',
+            success: function(response) {
+                $('#loadingmessage').hide();
+				console.log(response);
+            },
+            error: function(error) {
+                console.log(error);
+            }
+        });		
+    });	
+});
+</script>
+</body>
+
+</html>
