@@ -1,6 +1,6 @@
-# Spamector
+# 📨 Spamector
 ![Made_with_love_by Tristan](https://img.shields.io/badge/Made_with_love_by-Tristan-orange.svg) ![Last_deployed November](https://img.shields.io/badge/Last_deployed-November-green.svg)
-## A Spam Detector
+## 📮 A Spam Detector
 
 - **Summary**
 
